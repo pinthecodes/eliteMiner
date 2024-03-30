@@ -1,0 +1,29 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    background-image: url("/media/bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+header{
+    border: 1px solid red;
+    height: 70px;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+.cont{
+    border: 1px solid red;
+    height: 400px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.overlay{
+    height: 850px;
+    background-color: rgba(0,31,63, 0.8);
+    position: absolute;
+    top: 7%;
+    width: 100%;
+}

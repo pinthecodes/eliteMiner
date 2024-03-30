@@ -1,0 +1,56 @@
+@media (max-width:700px){
+
+    .cont {
+        height: 800px;
+        width: 95%;
+      }
+
+      nav{margin-bottom: 40px;}
+
+    nav h3{
+        font-size: 12px;
+      }
+
+
+
+      .intro {
+        height: 120px;
+        padding: 0px 8px;
+        margin-bottom: 70px;
+      }
+      .intro h2 {
+        margin-bottom: 10px;
+        font-size: 15px;
+      }
+      .intro p {
+        font-size: 12px;
+        text-align: center;
+      }
+
+      .actualSlide {
+        flex-direction: column;
+      }
+      .actualObj {
+        height: 75%;
+        width: 100%;
+      }
+      .actualObjW {
+        height: 100%;
+        width: 100%;
+      }
+
+      .chat {
+        height: 42px;
+        width: 12%;
+      }
+      .chat a {
+        font-size: 10px;
+      }
+
+      .next {
+        right: -5%;
+      }
+      .prev {
+        left: -5%;
+      }
+}
